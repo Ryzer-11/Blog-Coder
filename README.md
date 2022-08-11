@@ -3,13 +3,7 @@
 CoderHousePython
 Entrega Final
 Integrantes
-Jonatan W
-
-Casos de prueba
-Link a drive
-
-Link a Heroku
-Link
+Adan Mercado
 
 Descripcion de tareas:
 Realice la construccion completa del trabajo final utilizando Django, como hosting Heroku (PostgreSQL+Archivos Estaticos) y Cloudinary (avatar+media)
@@ -62,6 +56,7 @@ Piezas sugeridas, no hace falta que esten todas, pero tiene que haber por lo men
 * Delete page
 * Get profile
 * Update profile
+
 Rutas
 Inicio: al momento de ingresar a la app en la ruta base '/'
 
@@ -84,69 +79,7 @@ Contar con un admin en el route admin/ donde se puedan manejar las apps y los da
 
 Tener una app de mensajeria en el route messages/ para que los perfiles se puedan contactar entre si.
 
-NOTA: no hace falta que sean APPs separadas, con dos APP estaran bien.
-
-Pro Coders
-Los requisitos extra pro-coders no se incluyen en los criterios de evaluacion
-
-Los requisitos extra son funcionalidades opcionales que no se incluyen en los criterios de evaluacion, pero si te falta diversion y quieres agregar valor a tu proyecto... !bajo la unica condicion de que lo que incluyas debe funcionar!
-
-* Messenger y Like - Integracion con otra db
-* Subida a un servidor
-NO ES NECESARIO NI RECOMENDADO:
-* Utilizar python puro para el proyecto final (se espera el uso de Django)
-Instrucciones para ejecutar este proyecto localmente
-Clonar el proyecto
-git clone https://github.com/ltiisidii/coderhouse-django-blog.git
-
-cd coderhouse-django-blog
-Crear y activar entorno virtual (Windows)
-C:\>python -m venv c:\ruta\al\entorno\virtual
-C:\>c:\ruta\al\entorno\virtual\scripts\activate.bat
-Crear y activar entorno virtual (Linux)
-python3 -m venv venv
-source venv/bin/activate
-Crear y activar entorno virtual (Linux)
-export SECRET_KEY='4e8&y0ygfox1cg7f3owcku9$hv_(nu7t3ku$p637-+!so2jlvs'
-export DEBUG='True'
-export ALLOWED_HOSTS='*,'
-export CLOUDINARY_URL=''
-export YOUR_CLOUD_NAME=''
-export YOUR_API_SECRET=''
-export YOUR_API_KEY=''
-export CSRFTRUSTEDORIGINS='https://urlproporcionadaporheroku.herokuapp.com','http://127.0.0.1'
-export DATABASE_URL=''
-o crear el archivo coderhouse_project/.env con el siguente contenido
-
-CLOUDINARY_URL=
-YOUR_CLOUD_NAME=
-YOUR_API_SECRET=
-YOUR_API_KEY=
-CSRFTRUSTEDORIGINS='https://coderhouse-django-blog.herokuapp.com','https://blog.appspot.cc','http://127.0.0.1'
-DATABASE_URL=
-SECRET_KEY=4e8&y0ygfox1cg7f3owcku9$hv_(nu7t3ku$p637-+!so2jlvs
-DEBUG=True
-ALLOWED_HOSTS=*,
-Nota:
-CLOUDINARY_URL=Este valor lo obtenemos en el dashboard de cloudinary
-
-YOUR_CLOUD_NAME=Este valor lo obtenemos cloudinary
-
-YOUR_API_SECRET=Este valor lo obtenemos cloudinary
-
-YOUR_API_KEY=Este valor lo obtenemos cloudinary
-
-DATABASE_URL=Este valor lo obtenemos de Heroku Postgres Resource (addon), una vez generada la base de datos obtendremos este valor dentro de las Config Vars del proyecto
 
 Instalar las dependencias del proyecto
-Nota: es posible que tengamos un error al querer instalar django_heroku una de las soluciones puede ser la siguiente:
-sudo apt install python3-pip python3-dev libpq-dev postgresql postgresql-contrib
-pip install -r requirements.txt
-Crear base de datos a partir de las migraciones
-python manage.py migrate
-Crear super-usuario
-python manage.py createsuperuser
-Crear estáticos
-python manage.py collectstatic
-Ejecutar proyecto
-python manage.py runserver
+
+
