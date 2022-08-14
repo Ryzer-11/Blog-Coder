@@ -83,3 +83,9 @@ Tener una app de mensajeria en el route messages/ para que los perfiles se pueda
 Instalar las dependencias del proyecto
 
 
+# Link del video
+
+https://youtu.be/fVcwPlgn42c
+
+Nota: Tengo todavia problemas para subir la imagen, es por ello que en el video no se muestra, sigo trabajando en ello.
+
