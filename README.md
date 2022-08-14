@@ -87,5 +87,5 @@ Instalar las dependencias del proyecto
 
 https://youtu.be/fVcwPlgn42c
 
-Nota: Tengo todavia problemas para subir la imagen, es por ello que en el video no se muestra, sigo trabajando en ello.
+Nota: Tengo todavia problemas para subir la imagen del avatar, es por ello que en el video no se muestra, pero sigo trabajando en ello.
 
