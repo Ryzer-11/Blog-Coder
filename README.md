@@ -60,7 +60,7 @@ Piezas sugeridas, no hace falta que esten todas, pero tiene que haber por lo men
 Rutas
 Inicio: al momento de ingresar a la app en la ruta base '/'
 
-Visualizar el home del blog
+# Visualizar el home del blog
 
 Diseño
 Poder listar todas las paginas del blog, poder ver en detalle cada una, poder crear, editar o borrar paginas del blog
