@@ -85,7 +85,7 @@ Instalar las dependencias del proyecto
 
 # Link del video
 
-https://youtu.be/Zx4UgP15s0k
+https://youtu.be/WzOKwGgH9Ww
 
 Nota: Tengo todavia problemas para mostrar la imagen em el post, es por eso que en el video no se muestra, pero sigo trabajando en ello.
 
